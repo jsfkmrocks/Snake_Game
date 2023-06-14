@@ -70,7 +70,7 @@ def gameloop():
 
         while game_close == True:
             dis.fill(blue)
-            message("Get Rekt Loser Press Q-Quit or C-Play Again", red)
+            message("Get Rekt Loser (Touch Grass) Q-Quit or C-Play Again", red)
             your_score(length_of_snake - 1)
             pygame.display.update()
 
